@@ -13,6 +13,7 @@ int main(int argc, char* argv[]) {
     uint32_t mask;
     uint32_t values[2];
     int done = 0;
+
     xcb_rectangle_t r = { 20, 20, 60, 60 };
 
     /* open connection with the server */
@@ -41,7 +42,7 @@ int main(int argc, char* argv[]) {
     values[0] = s->white_pixel;
     values[1] = XCB_EVENT_MASK_EXPOSURE | XCB_EVENT_MASK_KEY_PRESS;
     xcb_create_window(c, s->root_depth, w, s->root,
-                    10, 10, 100, 100, 1,
+                    10, 10, 800, 600, 1,
                     XCB_WINDOW_CLASS_INPUT_OUTPUT, s->root_visual,
                     mask, values);
 

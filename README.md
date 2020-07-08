@@ -11,6 +11,8 @@ https://www.x.org/releases/X11R7.7/doc/libxcb/tutorial/index.html
 
 https://pt.qwe.wiki/wiki/XCB
 
+http://metan.ucw.cz/blog/things-i-wanted-to-know-about-libxcb.html
+
 Color stuff:
 https://tronche.com/gui/x/xlib/window/visual-types.html
 
